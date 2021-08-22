@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:rode/app/core/Constantes.dart';
 import 'package:rode/app/view/sessao/SessionBackground.dart';
 
 class LoginPage extends StatefulWidget {
@@ -24,7 +25,7 @@ class _LoginPageState extends State<LoginPage> {
     }
     @override
     Widget build(BuildContext context) {
-      print('aaa');
+      Const().setSize(context);
       return SessionBackground(
         child: Column(
           children: [

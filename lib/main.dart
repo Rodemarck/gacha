@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import 'app/core/Constantes.dart';
 import 'app/view/home/HomePage.dart';
 import 'app/view/sessao/LoginPage.dart';
 import 'app/view/sessao/RegisterPage.dart';
